@@ -1,0 +1,302 @@
+@media only screen and (max-width: 1000px) 
+{
+.Mobile p{
+  color:#EAEAEA;
+  padding:10px 10px;
+  font-size: 14px;
+}
+.topFind ul li a {
+  text-decoration: none;
+  padding: 0px 6px;
+  color: #EAEAEA;
+  font-size: 14px;
+}
+/*Header Section Start*/
+.logo p{
+  font-size: 20px;
+}
+/*Header Section End*/
+}
+
+
+@media only screen and (max-width: 600px) 
+{
+
+.topTab{
+  height: 50px;
+  background: #6EBE74;
+}
+.Mobile{
+  text-align: center;
+}
+.Mobile p{
+  color:#EAEAEA;
+  padding:10px 10px;
+}
+.topFind{
+  display: none;
+}
+.fa-phone-square-alt{
+  color:#fff;
+}
+/* header section start */
+.navbar{
+  display: none;
+}
+.responsive{
+  display: block;
+  background: #fff;
+}
+.res-flex{
+  display: flex;
+  justify-content: space-around;
+}
+.res-heading h4{
+  color:#444;
+  font-weight: bold;
+  padding:20px 0px;
+}
+.res-icon{
+  padding: 20px 10px;
+}
+ .fa-cart-arrow-down, .fa-align-justify{
+  color:#333;
+  font-size: 20px;
+}
+.fa-heart-broken{
+  color:#333;
+  font-size: 20px;
+  position: relative;
+}
+.possition-res{
+  position: absolute;
+  top: 11px;
+  left: 200px;
+  background: #6EBE74;
+  height: 15px;
+  width: 15px;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 10px;
+}
+/* header section end */
+
+/*Slider Section Start */
+.item1{
+   width: 100%
+}
+.item2{
+   width: 100%
+}
+.item3{
+   width: 100%
+}
+.item2 h1 {
+  color: #E3F9E5B0;
+  text-transform: uppercase;
+}
+
+.item1 h1 {
+  text-align: center;
+  padding: 10px 10px;
+  color: #baeec594;
+  font-size: 45px;
+}
+.item1 p{
+  color:#eee;
+  text-align: center;
+  font-size:25px;
+}
+.item2 h1 {
+  color: #EAEAEA;
+  padding:40px 50px;
+  font-size: 45px;
+}
+.item2 h1 span{
+  color:#6EBE74;
+  border-bottom: 2px solid #6EBE74;
+}
+.item2 p{
+  padding:10px 70px;
+  color:#6EBE74;
+   font-size:35px; 
+
+}
+.item3 h1 {
+  color: #dfeade;
+  font-weight: 700;
+  padding: 20px 50px;
+  font-size: 50px;
+}
+.item3 p{
+  padding: 20px 50px;
+  color: #6EBE74;
+  font-size: 35px;
+}
+/*Slider Section End/
+
+
+/*Gallery SEction Start*/
+ .heading h1 {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #6EBE74;
+}
+ .heading hp{
+  color:#ccc;
+  text-align: center;
+}
+.heading p{
+  color:#ccc;
+  text-align: center;
+  padding:10px 10px;
+  line-height: 22px;
+}
+.image:hover{
+  transform: scale(1.1);
+  transition: .5s;
+}
+.no-gutters{
+  margin:0 auto;
+}
+
+.blackBar{
+  height: 50px;
+  background: #0A0A0A;
+
+}
+.blackBar p{
+  color:#fff;
+  font-size: 12px;
+  text-align: center;
+
+}
+/*Gallery SEction End*/
+/*Product Section Start*/
+.product-heading p{
+  color:#ccc;
+  text-align: center;
+}
+/*Product Section End*/
+
+/*Join Our Team Section Start*/
+.Join-heading{
+  color:#FFFFFF;
+  text-align: center;
+  margin-top: 30px;
+  padding:60px 10px;
+}
+.Join-heading h3{
+   padding:10px 20px;
+   color:#FFFFFF;
+   font-size: 20px;
+}
+.Join-heading h1{
+     padding:10px 0px;
+     color:#FFFFFF;
+     font-size: 45px;
+}
+.joinEmail{
+  margin-top: 30px;
+  border-bottom: 2px solid #ccc;
+  display: inline-block;
+  padding-right: 20px;
+}
+.sinup{
+  margin-top: 20px;
+  color:#ccc;
+  background:#fff;
+  padding:9px 20px;
+  border:1px solid #ccc;
+}
+/*Join Our Team Section End*/
+/*Latest News Section*/
+.newsgrid{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+}
+.image-Heading{
+  padding: 0px 0px;
+}
+.image-Heading h4 a {
+  color: #444;
+  text-decoration: none;
+  font-size: 14px;
+}
+.image-Heading p {
+  font-size: 10px;
+  color: #444;
+  line-height: 16px;
+  padding: 0px 5px;
+}
+.newsDate {
+  height: 40px;
+  width: 40px;
+  background: #fff;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.newsDate p{
+  font-size: 14px;
+  color:#444; 
+}
+
+/*Latest News Section End*/
+
+
+/*Company Section Start*/
+.banner{
+  background:#fff;
+  height: 350px;
+  text-align: center;
+  padding:10px 0px;
+}
+.banner h1{
+  padding-top: 5px;
+ font-size: 35px;
+ display: none;
+}
+.Company-pTag{
+  display: none;
+}
+.bannerButton{
+  display: none;
+}
+.banner p{
+  text-align: center;
+  color:#444;
+  padding:10px 10px;
+  line-height: 24px;
+  font-size: 12px;
+}
+/*Company Section End*/
+
+/*Member Slider Section Start*/
+.Member-Information{
+  display: grid;
+  grid-template-columns:auto auto;
+  padding:10px 20px;
+  grid-gap: 10px;
+}
+/*Member Slider Section End*
+
+/*Claint Section Start*/
+.ClintMain{
+  display: none;
+}
+/*Claint Section End*/
+/*Footer Section Footer  Start*/
+.footer-heading h1{
+  font-size: 35px;
+}
+.footerFlex{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-row-gap: 10px;
+  border-bottom: 1px solid #ccc;
+}
+/*Footer Section Footer  end*/
+}
